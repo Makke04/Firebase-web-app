@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const {index} = require('../conifg/router')
+const {index} = require('../config/router')
 
 router.get('/', index)
 
